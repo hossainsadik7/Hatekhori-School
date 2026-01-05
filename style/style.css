@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar style start */
+
+.navbar,.nav-logo,.menu-item{
+    display: flex;
+
+}
+.navbar{
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-logo{
+    gap: 15;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item{
+    gap: 50px;
+}
+.menu-item li{
+    list-style: none;
+}
+
+.menu-item li a{
+    text-decoration: none;
+    color: rgba(93, 88, 239, 1);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#home{
+    color: rgba(254, 163, 1, 1);
+    font-weight: 700;
+}
+#about{
+    color: rgba(1, 172, 253, 1);
+    font-weight: 500;
+}
+#faciliti{
+   color: rgba(5, 212, 223, 1);
+   font-weight: 500;
+
+}
+
+.contact-btn{
+    padding:10px 60px ;
+    border-radius: 12px;
+    border: none;
+    background: rgba(254, 163, 1, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contact-btn:hover{
+    background-color: rgb(182, 136, 50);
+}
+
+.menu-icon{
+   display:none;
+}
+.mobile-menu{
+    display: none;
+}
+/* Navbar Style End */
+
+/* Banner Style start */
+.banner{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.banner-content{
+    max-width: 640px;
+    max-height: 575px;  
+}
+.banner-content img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#title-orange{
+    color: orange;
+}
+#title-blue{
+    color:rgb(91, 196, 238);
+}
+.banner-title{
+    font-family: Quicksand;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 20px;
+}
+.title-description{
+    color: rgba(17, 17, 17, 1);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+.enroll{
+    color:rgba(255, 255, 255, 1);
+    padding: 10px 45px;
+    border-radius:12px ;
+    border: none;
+    background :black;
+    font-size: 1.2rem;
+    margin-top: 24px;
+}
+/* Banner Style End */
+
+/* Classes Style Start */
+.classes{
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    max-width: 1170px;
+    max-height: 879px;
+    margin: 100px auto;
+    text-align: center;
+}
+.classes-title{
+    color: rgba(0, 0, 0, 1);  
+    font-size:2.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.class-container{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.class-card{
+    box-sizing: border-box;
+    max-width: 367px;
+    max-height: 476px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    border: 0.94px solid rgba(222, 245, 255, 1);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.29578971862793px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgba(222, 245, 255, 1),rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+}
+.class-heading{
+    color: rgba(32, 32, 32, 1);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.class-description{
+    color: rgba(128, 128, 128, 1);
+    font-size:0.9rem;
+    font-weight: 500;
+    line-height: 25px;
+}
+.class-card a{
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    font-weight: 600;
+}
+.class-card img{
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+.next-slid i{
+    color: white;
+    background:orange;
+    padding:5px 3px 5px 3px;
+    border-radius: 50%;
+   
+}
+#card2{
+    background: linear-gradient(180.00deg, rgba(255, 244, 220, 1),rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+}
+#card3{
+    background: linear-gradient(180.00deg, rgba(238, 225, 255, 1),rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+}
+#readmore-skyblue{
+    color: skyblue;
+}
+#readmore-orange{
+    color:orange;
+}
+#readmore-blue{
+    color:rgb(147, 41, 240);
+}
+/* Classes Style End */

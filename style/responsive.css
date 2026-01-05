@@ -1,0 +1,36 @@
+/* Responsive For Mobile Device */
+@media screen and (max-width:576px){
+    .navbar{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid orange;
+        padding: 15px;
+   }
+   .mobile-menu i{
+       font-size: 1.8rem;
+   }
+   .banner{
+    flex-direction: column-reverse;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+   }
+   .class-container{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   .next-slid{
+    display: none;
+   }
+   .classes-title{
+       font-size: 1.6rem;
+      margin-bottom: -10px;
+   }
+}
