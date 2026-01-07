@@ -305,3 +305,76 @@
 }
 
 /* Our stories Style End */
+
+/* Footer Style Start */
+footer{
+     background: rgba(83, 61, 246, 0.684);
+     padding: 50px 0;
+}
+.footer-content{
+    max-width: 1170px;
+    margin: auto;
+    display: grid;
+    gap: 150px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 15px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+.footer-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height:30px;
+}
+.footer-description{
+    color: rgb(233, 226, 226);
+    font-size:1rem;
+    line-height: 26px;
+}
+.about-school{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.item2{
+    margin-left: 100px;
+}
+.item2 li{
+    list-style: none;
+}
+.item2 li a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);  
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px 0;
+
+}
+.keep-intouch{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+
+/* Footer Style End */

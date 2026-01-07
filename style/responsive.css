@@ -49,4 +49,15 @@
         left: 17px;
         padding: 9px 17px;
         font-size: 0.6rem;
+    }
+    .footer-content{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin: 0  15px;
+        justify-content: flex-start;
+    }
+    .item2{
+    margin-left: 0px;
+    }
+
 }
